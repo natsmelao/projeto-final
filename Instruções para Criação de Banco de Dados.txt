@@ -1,0 +1,18 @@
+-- PARTE UM: Criar o banco
+DROP DATABASE IF EXISTS ESTOQUE;
+CREATE DATABASE ESTOQUE;
+
+-- PARTE DOIS: Criar tabela
+
+CREATE TABLE USUARIO
+(
+NomeCompleto VARCHAR(80),
+Apelido VARCHAR(80),
+Email VARCHAR(80),
+Telefone VARCHAR(15),
+DataNascimento DATE,
+Estado VARCHAR(100),
+TipoUsuario VARCHAR(80),
+Senha VARCHAR(80),
+PRIMARY KEY (Email)
+);
