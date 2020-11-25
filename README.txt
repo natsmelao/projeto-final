@@ -6,7 +6,7 @@ A atividade foi feita usando a linguagem Java, com interface gráfica pelo Swing
 
 3 - Para o funcionamento correto do programa, o arquivo "DataBase.java" deve ser alterado para adequar as informações de conexão ao banco de dados que estiver sendo utilizado, por padrão está definido da seguinte forma:
 
-String stringDeConexao = "jdbc:postgresql://localhost:5432/empresa";
+String stringDeConexao = "jdbc:postgresql://localhost:5432/estoque";
 	String usuario = "postgres";
 	String senha = "postgres";
 
